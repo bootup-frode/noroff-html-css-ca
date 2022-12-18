@@ -7,3 +7,5 @@ a:hover {color:#00a0c0;text-decoration:none}
 body {background-color:#f8f8f8;color:#606060;font-family:'Oxygen','Segoe UI','Sans-serif','Helvetica';font-size:14px;margin:0px}
 
 h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;color:#808080}
+
+header {margin:0 auto;max-width:1200px}
