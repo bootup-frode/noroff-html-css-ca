@@ -24,7 +24,7 @@ nav ul li a {padding:20px;display:inline-block}
 #hamburger-checkbox {display:none}
 #hamburger-checkbox:checked ~ nav {height:220px}
 
-input {font-family:inherit;font-size:inherit;padding:10px;border-radius:5px;border:1px solid #e0e0e0;background-color:#ffffff}
+input, textarea, select {font-family:inherit;font-size:inherit;padding:10px;border-radius:5px;border:1px solid #e0e0e0;background-color:#ffffff}
 
 input[type=button], input[type=submit], input[type=reset], button {background-color:#0080c0;border:0;border-bottom:2px solid #004060;
         padding:10px;color:#ffffff;cursor:pointer}
