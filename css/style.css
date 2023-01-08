@@ -22,7 +22,7 @@ nav ul li a {padding:20px;display:inline-block}
 .navItemCurrent {padding:20px;background-color:#ffffff;color:#606060;display:inline-block}
 .hamburgerIcon {display:none;padding:20px;cursor:pointer}
 #hamburger-checkbox {display:none}
-#hamburger-checkbox:checked ~ nav {height:100%}
+#hamburger-checkbox:checked ~ nav {height:auto}
 
 main {width:100%;float:left;position:relative;margin-bottom:-14px}
 main section {max-width:1200px;margin:0 auto;background-color:#ffffff;border-bottom:1px solid #e0e0e0;padding:20px;box-sizing:border-box}
