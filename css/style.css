@@ -18,7 +18,7 @@ nav ul li {display:inline-block}
 nav ul li a {padding:20px;display:inline-block}
 
 .hamburger-icon {display:none;padding:20px;display:inline-block}
-#hamburger-checkbox {display:none}
+#hamburger-checkbox {}
 #hamburger-checkbox:checked ~ nav {display:block}
 
 main {display:block;margin:0 auto;max-width:1200px;background-color:#ffffff;border-bottom:1px solid #e0e0e0;padding:20px;box-sizing:border-box}
