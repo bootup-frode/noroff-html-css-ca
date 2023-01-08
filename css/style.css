@@ -14,7 +14,7 @@ header {margin:0 auto;max-width:1200px;background-color:#0080c0;color:#ffffff;
 nav {background-color:rgba(0,0,0,0.5)}
 nav ul {list-style:none;padding:0px}
 nav ul li {display:inline-block}
-nav ul li a {padding:10px}
+nav ul li a {padding:10px;display:inline-block}
 
 main {margin:0 auto;max-width:1200px;background-color:#ffffff;border-bottom:1px solid #e0e0e0;padding:20px;box-sizing:border-box}
 
