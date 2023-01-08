@@ -20,7 +20,7 @@ nav ul {list-style:none;padding:0px}
 nav ul li {display:inline-block}
 nav ul li a {padding:20px;display:inline-block}
 .navItemCurrent {padding:20px;background-color:#ffffff;color:#606060;display:inline-block}
-.hamburgerIcon {display:none;padding:20px}
+.hamburgerIcon {display:none;padding:20px;cursor:pointer}
 #hamburger-checkbox {display:none}
 #hamburger-checkbox:checked ~ nav {display:block}
 
