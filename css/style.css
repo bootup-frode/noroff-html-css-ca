@@ -11,8 +11,9 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 header {display:block;margin:0 auto;max-width:1200px;background-color:#0080c0;color:#ffffff;
         background-image:url('../gfx/unsplash-coding-bg.png');background-position:center;background-size:cover}
 .headerContent {padding:20px;text-shadow:#000000 0px 2px 10px}
+.headerNavigation {background-color:rgba(0,0,0,0.5)}
 
-nav {background-color:rgba(0,0,0,0.5);margin:0px;padding:0px}
+nav {;margin:0px;padding:0px}
 nav ul {list-style:none;padding:0px}
 nav ul li {display:inline-block}
 nav ul li a {padding:20px;display:inline-block}
