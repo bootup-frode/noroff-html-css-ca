@@ -10,7 +10,8 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 
 header {margin:0 auto;max-width:1200px;background-color:#0080c0;color:#ffffff;padding:20px;box-sizing:border-box;
         background-image:url('../gfx/unsplash-coding-bg.png');background-position:center;background-size:cover}
-nav ul {list-style:none;padding:0px}
+nav ul {list-style:none}
+nav ul li {padding:0px}
 
 main {margin:0 auto;max-width:1200px;background-color:#ffffff;border-bottom:1px solid #e0e0e0;padding:20px;box-sizing:border-box}
 
