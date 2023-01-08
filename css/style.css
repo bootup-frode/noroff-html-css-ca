@@ -15,7 +15,7 @@ header section {max-width:1200px;margin:0 auto;
 .headerContent {display:block;padding:20px;text-shadow:#000000 0px 2px 10px}
 .headerNavigation {display:block;background-color:rgba(0,0,0,0.5);overflow:visible}
 
-nav {margin:0px;padding:0px;height:auto;transition:height 0.5s}
+nav {margin:0px;padding:0px}
 nav ul {list-style:none;padding:0px}
 nav ul li {display:inline-block}
 nav ul li a {padding:20px;display:inline-block}
@@ -34,7 +34,7 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
 
 @media only screen and (max-width:800px)
 {
-        nav {height:0px}
+        nav {height:0px;transition:height 0.5s}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
         .hamburgerIcon {display:block;text-align:center}
