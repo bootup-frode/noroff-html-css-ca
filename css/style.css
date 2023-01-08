@@ -32,7 +32,7 @@ footer {display:block;margin:0 auto;max-width:1200px;padding:20px;box-sizing:bor
 {
         nav {display:none}
         nav ul li {display:block}
-        nav ul li a {display:block}
-        .navItemCurrent {display:block}
-        .hamburger-icon {display:block}
+        nav ul li a {display:block;text-align:center}
+        .navItemCurrent {display:block;text-align:center}
+        .hamburger-icon {display:block;text-align:center}
 }
