@@ -22,7 +22,7 @@ nav ul li a {padding:20px;display:inline-block}
 #hamburger-checkbox {display:none}
 #hamburger-checkbox:checked ~ nav {display:block}
 
-main {margin-top:0;display:block;margin:0 auto;max-width:1200px;background-color:#ffffff;border-bottom:1px solid #e0e0e0;padding:20px;box-sizing:border-box}
+main {display:block;margin:0 auto;max-width:1200px;background-color:#ffffff;border-bottom:1px solid #e0e0e0;padding:20px;box-sizing:border-box}
 
 footer {display:block;margin:0 auto;max-width:1200px;padding:20px;box-sizing:border-box}
 
