@@ -14,3 +14,5 @@ header {margin:0 auto;max-width:1200px;background-color:#0080c0;color:#ffffff;pa
 main {margin:0 auto;max-width:1200px;background-color:#ffffff;border-bottom:1px solid #e0e0e0;padding:20px;box-sizing:border-box}
 
 footer {margin:0 auto;max-width:1200px;padding:20px;box-sizing:border-box}
+
+.firstImage {border-radius:5px;max-width:1000px}
