@@ -37,6 +37,6 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
         nav {display:none}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
-        .navItemCurrent {display:block;text-align:center}
-        .hamburger-icon {display:block;text-align:center}
+        .navItemCurrent {display:inline-block;text-align:center}
+        .hamburger-icon {display:inline-block;text-align:center}
 }
