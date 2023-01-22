@@ -26,7 +26,7 @@ while (i < pageFiles.length)
   }
   else
   {
-    navigationCode += "<li><a href='#' onclick='loadPage(\"" + pageFiles[i] + "\");'>" + pageNames[i] + "</a></li>";
+    navigationCode += "<li><a href='#' onclick='pageLoader(\"" + pageFiles[i] + "\");'>" + pageNames[i] + "</a></li>";
   }
   i++;
 }
