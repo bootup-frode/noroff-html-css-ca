@@ -1,4 +1,4 @@
-function loadPage(thePage)
+function pageLoader(thePage)
 {
 var xmlHttp = null;
 xmlHttp = new XMLHttpRequest();
