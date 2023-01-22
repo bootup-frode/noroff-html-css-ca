@@ -5,4 +5,8 @@ xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
 xmlHttp.send( null );
 document.write(xmlHttp.responseText);
+
+var navigationCode = "";
+
+document.getElementById("navigationUL").innerHTML= navigationCode;
 }
