@@ -11,8 +11,8 @@ const pageNames = ["Home", "Portfolio", "Contact"];
 
 
 // <li><span class="navItemCurrent">Home</span></li>
-// <li><a href="#" onclick="loadPage('portfolio');">Portfolio</a></li>
-// <li><a href="#" onclick="loadPage('contact');">Contact</a></li>
+// <li><a href="#" onclick="pageLoader('portfolio');">Portfolio</a></li>
+// <li><a href="#" onclick="pageLoader('contact');">Contact</a></li>
 
 var navigationCode = "";
 
