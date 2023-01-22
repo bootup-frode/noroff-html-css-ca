@@ -6,8 +6,8 @@ xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
 xmlHttp.send( null );
 document.getElementById("pageContent").innerHTML = xmlHttp.responseText;
 
-const pageNames = ["Home", "Portfolio", "Contact"];
 const pageFiles = ["home", "portfolio", "contact"];
+const pageNames = ["Home", "Portfolio", "Contact"];
 
 
 // <li><span class="navItemCurrent">Home</span></li>
@@ -18,9 +18,9 @@ var navigationCode = "";
 
 let i = 0;
 
-while (i < pageNames.length)
+while (i < pageFiles.length)
 {
-  if (thePage == pageNames[i])
+  if (thePage == pageFiles[i])
   {
     navigationCode += "<li><span class='navItemCurrent'>" + pageNames[i] + "</span></li>";
   }
