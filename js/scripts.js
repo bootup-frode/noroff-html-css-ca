@@ -4,11 +4,10 @@ var xmlHttp = null;
 xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
 xmlHttp.send( null );
-document.write(xmlHttp.responseText);
+document.getElementById("pageContent").innerHTML = xmlHttp.responseText;
 
-
-const pages = ["home", "portfolio", "contact"];
-const titles = ["Home", "Portfolio", "Contact"];
+const pageNames = ["Home", "Portfolio", "Contact"];
+const pageFiles = ["home", "portfolio", "contact"];
 
 
 // <li><span class="navItemCurrent">Home</span></li>
@@ -17,5 +16,19 @@ const titles = ["Home", "Portfolio", "Contact"];
 
 var navigationCode = "";
 
+let i = 0;
+
+while (i < pageNames.length)
+{
+  if (thePage == pageNames[i])
+  {
+    navigationCode += "<li><span class='navItemCurrent'>" + pageNames[i] + "</span></li>";
+  }
+  else
+  {
+    navigationCode += "<li><a href='#' onclick='loadPage(\"" + pageFiles[i] + "\");'>" + pageNames[i] + "</a></li>";
+  }
+  i++;
+}
 document.getElementById("navigationUL").innerHTML= navigationCode;
 }
