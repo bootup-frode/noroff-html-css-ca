@@ -17,8 +17,8 @@ document.getElementById("pageContent").innerHTML = xmlHttp.responseText;
 // But here we will create it dynamically. :)
 // ----------------------------
 
-const pageFiles = ["home", "portfolio", "contact"];
-const pageNames = ["Home", "Portfolio", "Contact"];
+const pageFiles = ["home", "portfolio", "playground", "contact"];
+const pageNames = ["Home", "Portfolio", "Playground", "Contact"];
 var navigationCode = "";
 let i = 0;
 
