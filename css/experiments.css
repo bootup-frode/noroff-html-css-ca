@@ -1,6 +1,7 @@
 .firstImage {border-radius:10px;width:800px;max-width:100%}
 
 .ball {
+    display:inline-block;
     animation-name: bounce;
     animation-duration: 5s;
     position: relative;
@@ -24,6 +25,7 @@
   }
 
 .ball2 {
+    display:inline-block;
     transition-property: background;
     transition-duration: 2s;
     height: 50px;
