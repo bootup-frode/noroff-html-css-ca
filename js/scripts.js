@@ -8,13 +8,7 @@ document.getElementById("pageContent").innerHTML = xmlHttp.responseText;
 
 
 // ----------------------------
-// A static menu would look like this:
-// ----------------------------
-// <li><span class="navItemCurrent">Home</span></li>
-// <li><a href="#" onclick="pageLoader('portfolio');">Portfolio</a></li>
-// <li><a href="#" onclick="pageLoader('contact');">Contact</a></li>
-// ----------------------------
-// But here we will create it dynamically. :)
+// Create menu dynamically. :)
 // ----------------------------
 
 const pageFiles = ["home", "portfolio", "playground", "contact"];
@@ -34,5 +28,5 @@ while (i < pageFiles.length)
   }
   i++;
 }
-document.getElementById("navigationUL").innerHTML= navigationCode;
+document.getElementById("navigationUL").innerHTML=navigationCode;
 }
