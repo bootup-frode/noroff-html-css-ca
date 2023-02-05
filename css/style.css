@@ -40,7 +40,7 @@ main section {max-width:1200px;margin:0 auto;background-color:#ffffff;border-bot
 footer {width:100%;float:left;position:relative}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box}
 
-.firstImage {border-radius:10px;max-width:800px;width:80%}
+.firstImage {border-radius:10px;width:800px;max-width:100%}
 
 @media only screen and (max-width:800px)
 {
