@@ -40,31 +40,6 @@ main section {max-width:1200px;margin:0 auto;background-color:#ffffff;border-bot
 footer {width:100%;float:left;position:relative}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box}
 
-.firstImage {border-radius:10px;width:800px;max-width:100%}
-
-.ball {
-        animation-name: bounce;
-        animation-duration: 5s;
-        position: relative;
-        top: 300px;
-        height: 50px;
-        width: 50px;
-        background: red;
-        border-radius: 50%;
-      }
-      
-@keyframes bounce {
-        0% {
-          top: 300px;
-        }
-        50% {
-          top: 0px;
-        }
-        100% {
-          top: 300px;
-        }
-      }
-
 @media only screen and (max-width:800px)
 {
         nav {height:0px;overflow:hidden;transition:height 0.5s}
