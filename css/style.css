@@ -9,7 +9,7 @@ body {background-color:#202040;color:#c0c0ff;font-family:'Open Sans','Segoe UI',
 
 h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 
-header {width:100%;float:left;padding:0px}
+header {width:100%;float:left;margin:0px;padding:0px}
 header section {max-width:1200px;margin:0 auto;
                 background-color:#0080c0;background-image:url('../gfx/unsplash-coding-bg.png');
                 background-position:center;background-size:cover;color:#ffffff}
