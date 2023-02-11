@@ -13,7 +13,7 @@ header {width:100%;float:left;margin:0px;padding:0px}
 .headerNavWrapper {width:100%}
 .headerContentWrapper {background-color:#ffffff}
 .headerNav {max-width:1200px;margin:0 auto;display:block;background-color:rgba(0,0,0,0.5);overflow:visible}
-.headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-shadow:#000000 0px 2px 10px}
+.headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-align:center}
 
 nav {margin:0px;padding:0px}
 nav ul {list-style:none;padding:0px;margin:0px}
