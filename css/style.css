@@ -10,7 +10,7 @@ body {background-color:#202040;color:#c0c0ff;font-family:'Open Sans','Segoe UI',
 h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 
 header {width:100%;float:left;margin:0px;padding:0px}
-.headerNavWrapper {width:100%}
+.headerNavWrapper {width:100%;display:fixed}
 .headerContentWrapper {background-color:#ffffff}
 .headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible;background-color:#101030}
 .headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-align:center}
