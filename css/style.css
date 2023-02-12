@@ -23,7 +23,7 @@ nav ul li a {padding:20px;display:inline-block}
 .hamburgerIconUL {display:none;padding:0px;margin:0px;list-style:none}
 .hamburgerIcon {display:none;padding:20px;cursor:pointer}
 #hamburger-checkbox {display:none}
-#hamburger-checkbox:checked ~ nav {height:auto}
+#hamburger-checkbox:checked ~ nav {height:250px}
 
 input, textarea, select {font-family:inherit;font-size:inherit;padding:10px;border-radius:5px;border:1px solid #e0e0e0;background-color:#ffffff}
 
