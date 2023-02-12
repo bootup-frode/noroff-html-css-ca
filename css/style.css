@@ -10,7 +10,7 @@ body {background-color:#202040;color:#c0c0ff;font-family:'Open Sans','Segoe UI',
 h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 
 header {width:100%;float:left;margin:0px;padding:0px}
-.headerNavWrapper {width:100%;position:fixed}
+.headerNavWrapper {width:100%}
 .headerContentWrapper {background-color:#ffffff}
 .headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible;background-color:rgba(32,32,64,0.85)}
 .headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-align:center}
@@ -23,7 +23,7 @@ nav ul li a {padding:20px;display:inline-block}
 .hamburgerIconUL {display:none;padding:0px;margin:0px;list-style:none}
 .hamburgerIcon {display:none;padding:20px;cursor:pointer}
 #hamburger-checkbox {display:none}
-#hamburger-checkbox:checked ~ nav {height:100%}
+#hamburger-checkbox:checked ~ nav {height:250px}
 
 input, textarea, select {font-family:inherit;font-size:inherit;padding:10px;border-radius:5px;border:1px solid #e0e0e0;background-color:#ffffff}
 
