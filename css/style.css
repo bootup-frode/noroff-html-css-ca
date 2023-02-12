@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;c
 
 header {width:100%;float:left;margin:0px;padding:0px}
 
-.headerNavWrapper {width:100%;position:fixed;background-color:rgba(16,16,48,0.9);overflow:hidden;height:56px;transition:height 0.5s;z-index:100}
+.headerNavWrapper {width:100%;position:fixed;background-color:rgba(16,16,48,0.95);overflow:hidden;height:56px;transition:height 0.5s;z-index:100}
 .headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible}
 .headerNavSupport {width:100%;height:56px}
 
