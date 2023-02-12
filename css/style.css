@@ -40,8 +40,13 @@ main section {max-width:1200px;margin:0 auto;background-color:#ffffff;border-bot
 footer {width:100%;float:left;position:relative}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center}
 
+.hideOnMobile {display:initial}
+.showOnMobile {display:none}
+
 @media only screen and (max-width:800px)
 {
+        .hideOnMobile {display:none}
+        .showOnMobile {display:initial}
         nav {height:0px;overflow:hidden;transition:height 0.5s}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
