@@ -41,7 +41,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, but
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 
 main {width:100%;float:left;position:relative;margin-bottom:-14px}
-main section {max-width:1200px;margin:0 auto;background-color:#101030;box-sizing:border-box}
+main section {max-width:1200px;margin:0 auto;background-color:#101030;box-sizing:border-box;height:100%}
 main section div {padding:20px}
 
 footer {width:100%;float:left;position:relative}
