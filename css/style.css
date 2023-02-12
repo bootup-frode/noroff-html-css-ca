@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 a {color:#0080a0;text-decoration:none}
 a:hover {color:#00a0c0;text-decoration:none}
 
-body {background-color:#202040;color:#c0c0ff;font-family:'Open Sans','Segoe UI','Sans-serif','Helvetica';font-size:14px;
+body {background-color:#202040;color:#c0c0ff;font-family:'Raleway','Segoe UI','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
 
-h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;color:#404080}
 
 header {width:100%;float:left;margin:0px;padding:0px}
 
@@ -44,7 +44,7 @@ main {width:100%;float:left;position:relative;margin-bottom:-14px}
 main section {max-width:1200px;margin:0 auto;background-color:#101030;padding:20px;box-sizing:border-box}
 
 footer {width:100%;float:left;position:relative}
-footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:#606080}
+footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:#404080}
 
 .hideOnMobile {display:initial}
 .showOnMobile {display:none}
