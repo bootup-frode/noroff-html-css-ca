@@ -53,8 +53,8 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
 {
         .hideOnMobile {display:none}
         .showOnMobile {display:initial}
-        .hamburgerIconUL {display:block;text-align:center}
-        .hamburgerIcon {display:block;text-align:center}
+        .hamburgerIconUL {display:block}
+        .hamburgerIcon {display:block}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
         .navItemCurrent {display:block;text-align:center}
