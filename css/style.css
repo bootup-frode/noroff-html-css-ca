@@ -44,7 +44,7 @@ main {width:100%;float:left;position:relative;margin-bottom:-14px}
 main section {max-width:1200px;margin:0 auto;background-color:#101030;padding:20px;box-sizing:border-box}
 
 footer {width:100%;float:left;position:relative}
-footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center}
+footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:#606080}
 
 .hideOnMobile {display:initial}
 .showOnMobile {display:none}
