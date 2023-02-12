@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 
 header {width:100%;float:left;margin:0px;padding:0px}
 
-.headerNavWrapper {width:100%;position:fixed;background-color:#101030;overflow:hidden;height:59px;transition:height 0.5s;z-index:100}
+.headerNavWrapper {width:100%;position:fixed;background-color:rgba(16,16,48,0.9);overflow:hidden;height:59px;transition:height 0.5s;z-index:100}
 .headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible}
 .headerNavSupport {width:100%;height:59px}
 
@@ -41,7 +41,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, but
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 
 main {width:100%;float:left;position:relative;margin-bottom:-14px}
-main section {max-width:1200px;margin:0 auto;background-color:#103030;padding:20px;box-sizing:border-box}
+main section {max-width:1200px;margin:0 auto;background-color:#101030;padding:20px;box-sizing:border-box}
 
 footer {width:100%;float:left;position:relative}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center}
