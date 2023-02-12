@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 header {width:100%;float:left;margin:0px;padding:0px}
 
 .headerNavWrapper {width:100%;position:fixed}
-.headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible;background-color:#101030}
+.headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible;background-color:#101030;height:auto}
 .headerNavSupport {width:100%;height:59px}
 
 .headerContentWrapper {background-color:#ffffff}
