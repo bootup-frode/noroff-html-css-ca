@@ -11,8 +11,8 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px}
 
 header {width:100%;float:left;margin:0px;padding:0px}
 
-.headerNavWrapper {width:100%;position:fixed}
-.headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible;background-color:#101030;height:auto}
+.headerNavWrapper {width:100%;position:fixed;background-color:#101030;}
+.headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible}
 .headerNavSupport {width:100%;height:59px}
 
 .headerContentWrapper {background-color:#ffffff}
@@ -27,7 +27,7 @@ nav ul li a {padding:20px;display:inline-block}
 .hamburgerIconUL {display:none;padding:0px;margin:0px;list-style:none}
 .hamburgerIcon {display:none;padding:20px;cursor:pointer}
 #hamburger-checkbox {display:none}
-#hamburger-checkbox:checked ~ nav, .headerNavWrapper, .headerNav {height:100%}
+#hamburger-checkbox:checked ~ nav, .headerNavWrapper {height:100%}
 
 input, textarea, select {font-family:inherit;font-size:inherit;padding:10px;border-radius:5px;border:1px solid #e0e0e0;background-color:#ffffff}
 
