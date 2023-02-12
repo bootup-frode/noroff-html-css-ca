@@ -5,6 +5,7 @@ xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
 xmlHttp.send( null );
 document.getElementById("pageContent").innerHTML = xmlHttp.responseText;
+document.getElementById("hamburger-checkbox").checked = false;
 
 
 // ----------------------------
