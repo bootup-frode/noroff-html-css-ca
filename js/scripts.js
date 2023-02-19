@@ -49,6 +49,5 @@ document.getElementById("navigationUL").innerHTML=navigationCode;
 
 // Adjust height of navigation support based on actual navigation height
 
-window.alert(document.getElementById('headerNavWrapper').clientHeight);
 document.getElementById("headerNavSupport").style.height=document.getElementById('headerNavWrapper').clientHeight + "px";
 }
