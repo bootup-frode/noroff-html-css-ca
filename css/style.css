@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 a {color:#6060a0;text-decoration:none}
 a:hover {color:#8080c0;text-decoration:none}
 
-body {background-color:#181840;color:#c0c0ff;font-family:'Nunito Sans','Arial','Sans-serif','Helvetica';font-size:14px;
+body {background-color:#181840;color:#c0c0ff;font-family:'Nunito','Arial','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
 
 h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;color:#8080e0}
