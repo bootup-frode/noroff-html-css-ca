@@ -26,7 +26,8 @@ nav ul li a {padding:20px;display:inline-block}
 
 #desktopNav {display:inline-block;box-sizing:border-box}
 .desktopCart {display:inline-block;box-sizing:border-box;float:right}
-.desktopCart li a {padding:10px;border-radius:5px;color:#6060a0;background-color:#ffffff}
+desktopCart li {padding:8px}
+.desktopCart li a {padding:8px;border-radius:5px;color:#6060a0;background-color:#ffffff}
 
 .hamburgerIconUL, #navigationUL, .cartUL {width:50%}
 
