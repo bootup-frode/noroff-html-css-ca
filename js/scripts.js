@@ -1,11 +1,12 @@
 var thePage = "home";
 
-function pageLoader()
-{
 if (urlParams.get('page'))
   {
   thePage = urlParams.get('page');
   }
+
+function pageLoader()
+{
 var xmlHttp = null;
 xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
