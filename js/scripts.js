@@ -2,11 +2,13 @@ function pageLoader()
 {
 var thePage = "home";
 
+alert(window.location.search.substring(1));
+
 if (urlParams.get('page'))
   {
   thePage = urlParams.get('page');
   }
-  
+
 var xmlHttp = null;
 xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
