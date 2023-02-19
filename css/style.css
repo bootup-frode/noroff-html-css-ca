@@ -29,7 +29,6 @@ nav ul li a {padding:20px;display:inline-block}
 .hamburgerIconUL li {display:inline-block}
 .hamburgerIconUL li label {padding:20px;display:inline-block;cursor:pointer}
 #hamburger-checkbox {display:none}
-#hamburger-checkbox2 {display:none}
 #hamburger-checkbox:checked ~ #navigationUL {height:236px}
 
 .cartUL {list-style:none;padding:0px;margin:0px;display:inline-block;text-align:right}
