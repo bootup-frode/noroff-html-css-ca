@@ -24,7 +24,7 @@ nav ul li a {padding:20px;display:inline-block}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 .hamburgerIconUL {display:none;padding:0px;margin:0px;list-style:none}
-.hamburgerIcon {display:none;padding:20px;cursor:pointer}
+.hamburgerIcon {padding:20px;cursor:pointer}
 #hamburger-checkbox {display:none}
 #hamburger-checkbox2 {display:none}
 #hamburger-checkbox:checked ~ nav {height:236px}
@@ -58,7 +58,6 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
         .hideOnMobile {display:none}
         .showOnMobile {display:initial}
         .hamburgerIconUL {display:block}
-        .hamburgerIcon {display:block}
         nav {height:0px}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
