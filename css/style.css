@@ -22,7 +22,7 @@ nav ul {list-style:none;padding:0px;margin:0px;display:inline-block}
 nav ul li {display:inline-block}
 nav ul li a {padding:20px;display:inline-block}
 
-#navigationUL {transition:height 0.5s}
+#navigationUL {transition:height 0.5s;overflow:hidden}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 .hamburgerIconUL {display:none;padding:0px;margin:0px;list-style:none}
