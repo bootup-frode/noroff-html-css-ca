@@ -32,7 +32,7 @@ nav ul li a {padding:20px;display:inline-block}
 
 input, textarea, select {font-family:inherit;font-size:inherit;padding:10px;border-radius:5px;border:1px solid #e0e0e0;background-color:#ffffff}
 
-input[type=text], input[type=email], input[type=number], input[type=password], textarea, select {width:300px;max-width:100%}
+input[type=text], input[type=email], input[type=number], input[type=password], textarea, select {width:100%;max-width:400px}
 
 input[type=button], input[type=submit], input[type=reset], button {background-color:#6060a0;border:0;border-bottom:2px solid rgba(0,0,0,0.5);
         padding:10px;color:#ffffff;cursor:pointer}
