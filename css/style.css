@@ -24,14 +24,14 @@ nav ul li a, label {padding:20px;display:inline-block}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 
-#desktopNav {display:inline-block;box-sizing:border-box}
-.desktopCart {display:inline-block;box-sizing:border-box;float:right}
-.desktopCart li {padding:10px}
-.desktopCart li a {padding:10px;border-radius:3px;color:#6060a0;background-color:#ffffff}
-.desktopCart li a:hover {color:#ffffff;background-color:#6060a0}
+#navItems {display:inline-block;box-sizing:border-box}
+.cartIcon {display:inline-block;box-sizing:border-box;float:right}
+.cartIcon li {padding:10px}
+.cartIcon li a {padding:10px;border-radius:3px;color:#6060a0;background-color:#ffffff}
+.cartIcon li a:hover {color:#ffffff;background-color:#6060a0}
 
 #hamburgerIcon {display:none}
-#hamburgerCheckbox:checked ~ #desktopNav {display:block}
+#hamburgerCheckbox:checked ~ #navItems {height:auto}
 
 input, textarea, select, button {font-family:inherit;font-size:inherit;padding:10px;border-radius:3px;border:1px solid #e0e0e0;background-color:#ffffff}
 
@@ -59,7 +59,7 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
         .showOnMobile {display:initial}
         
         #hamburgerIcon {display:inline-block}
-        #desktopNav {display:none}
+        #navItems {display:none}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
         .navItemCurrent {display:block;text-align:center}
