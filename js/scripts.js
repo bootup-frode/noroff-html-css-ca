@@ -2,12 +2,15 @@ function pageLoader()
 {
 var thePage = "home";
 
-alert(window.location.search.substring(1));
-
+const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.get('page'))
   {
   thePage = urlParams.get('page');
   }
+
+alert(thePage);
+
+
 
 var xmlHttp = null;
 xmlHttp = new XMLHttpRequest();
