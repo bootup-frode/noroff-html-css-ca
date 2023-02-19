@@ -12,8 +12,8 @@ document.getElementById("hamburger-checkbox").checked = false;
 // Create menu dynamically. :)
 // ----------------------------
 
-const pageFiles = ["home", "portfolio", "playground", "contact"];
-const pageNames = ["Home", "Portfolio", "Playground", "Contact"];
+const pageFiles = ["home", "games", "about", "contact"];
+const pageNames = ["Home", "Games", "About", "Contact"];
 var navigationCode = "";
 let i = 0;
 
