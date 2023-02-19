@@ -24,7 +24,8 @@ nav ul li a {padding:20px;display:inline-block}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 .hamburgerIconUL {display:none;padding:0px;margin:0px;list-style:none}
-.hamburgerIconUL li {padding:20px;cursor:pointer}
+.hamburgerIconUL li {padding:20px}
+.hamburgerIconUL li a {cursor:pointer}
 #hamburger-checkbox {display:none}
 #hamburger-checkbox2 {display:none}
 #hamburger-checkbox:checked ~ nav {height:236px}
