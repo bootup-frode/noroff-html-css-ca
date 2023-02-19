@@ -24,8 +24,8 @@ nav ul li a {padding:20px;display:inline-block}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 
-#navigationUL {transition:height 0.5s;overflow:hidden}
-.cartUL {float:right;list-style:none;padding:0px;margin:0px;display:inline-block;text-align:right}
+#desktopNav {width:50%}
+.desktopCart {text-align:right}
 
 .hamburgerIconUL, #navigationUL, .cartUL {width:50%}
 
