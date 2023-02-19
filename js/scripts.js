@@ -46,10 +46,4 @@ while (i < pageFiles.length)
   i++;
 }
 document.getElementById("navigationUL").innerHTML=navigationCode;
-
-
-// Adjust height of navigation support based on actual navigation height
-
-window.alert(document.getElementById('headerNavWrapper').clientHeight + "px");
-document.getElementById("headerNavSupport").style.height=document.getElementById('headerNavWrapper').clientHeight + "px";
 }
