@@ -11,13 +11,13 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;c
 
 header {width:100%;float:left;margin:0px;padding:0px}
 
-.headerNavWrapper {width:100%;overflow:hidden;transition:height 0.5s}
+.headerNavWrapper {width:100%;overflow:hidden}
 .headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible}
 
 .headerContentWrapper {background-color:#ffffff}
 .headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-align:center}
 
-nav {margin:0px;padding:0px}
+nav {margin:0px;padding:0px;transition:height 0.5s}
 nav ul {list-style:none;padding:0px;margin:0px}
 nav ul li {display:inline-block}
 nav ul li a {padding:20px;display:inline-block}
