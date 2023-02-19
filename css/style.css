@@ -31,7 +31,7 @@ nav ul li a {padding:20px;display:inline-block}
 #hamburger-checkbox {display:none}
 #hamburger-checkbox:checked ~ #navigationUL {height:236px}
 
-.cartUL {list-style:none;padding:0px;margin:0px;display:inline-block;text-align:right}
+.cartUL {float:right;list-style:none;padding:0px;margin:0px;display:inline-block;text-align:right}
 
 .hamburgerIconUL, #navigationUL, .cartUL {width:50%}
 
