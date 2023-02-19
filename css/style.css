@@ -17,7 +17,7 @@ header {width:100%;float:left;margin:0px;padding:0px}
 .headerContentWrapper {background-color:#ffffff}
 .headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-align:center}
 
-nav {margin:0px;padding:0px}
+nav {max-width:1200px;margin:0 auto;padding:0px}
 nav ul {list-style:none;padding:0px;margin:0px;display:inline-block}
 nav ul li {display:inline-block}
 nav ul li a {padding:20px;display:inline-block}
