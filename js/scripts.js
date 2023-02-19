@@ -37,6 +37,7 @@ while (i < pageFiles.length)
   if (thePage == pageFiles[i])
   {
     navigationCode += "<li><span class='navItemCurrent'>" + pageNames[i] + "</span></li>";
+    document.title="Game Hub - " + pageNames[i];
   }
   else
   {
