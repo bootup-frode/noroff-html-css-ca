@@ -56,8 +56,8 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
 {
         .hideOnMobile {display:none}
         .showOnMobile {display:initial}
-        .hamburgerIconUL {display:block}
-        #navigationUL {height:0px}
+        
+        #mobileHamburgerIcon {display:inline-block}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
         .navItemCurrent {display:block;text-align:center}
