@@ -30,7 +30,7 @@ nav ul li a {padding:20px;display:inline-block}
 .desktopCart li a {padding:10px;border-radius:3px;color:#6060a0;background-color:#ffffff}
 .desktopCart li a:hover {color:#ffffff;background-color:#6060a0}
 
-.hamburgerIconUL, #navigationUL, .cartUL {width:50%}
+#mobileHamburgerIcon {display:none}
 
 input, textarea, select, button {font-family:inherit;font-size:inherit;padding:10px;border-radius:3px;border:1px solid #e0e0e0;background-color:#ffffff}
 
@@ -58,6 +58,7 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
         .showOnMobile {display:initial}
         
         #mobileHamburgerIcon {display:inline-block}
+        #desktopNav {display:none}
         nav ul li {display:block}
         nav ul li a {display:block;text-align:center}
         .navItemCurrent {display:block;text-align:center}
