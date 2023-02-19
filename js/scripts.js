@@ -1,5 +1,11 @@
-function pageLoader(thePage)
+var thePage = "home";
+
+function pageLoader()
 {
+if (urlParams.get('page'))
+  {
+  thePage = urlParams.get('page');
+  }
 var xmlHttp = null;
 xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
@@ -25,7 +31,7 @@ while (i < pageFiles.length)
   }
   else
   {
-    navigationCode += "<li><a href='#' onclick='pageLoader(\"" + pageFiles[i] + "\");'>" + pageNames[i] + "</a></li>";
+    navigationCode += "<li><a href='index.html?page=" + pageFiles[i] + "'>" + pageNames[i] + "</a></li>";
   }
   i++;
 }
