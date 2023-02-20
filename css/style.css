@@ -32,7 +32,8 @@ nav ul li a, label {padding:20px;display:inline-block}
 
 #hamburgerIcon {display:none}
 #hamburgerCheckbox {display:none}
-#hamburgerCheckbox:checked ~ #navItems {height:250px}
+#hamburgerCheckbox:checked ~ #hamburgerMenu {height:100%}
+#hamburgerMenu {position:absolute;width:100%;height:0;transition:height 0.5s}
 
 input, textarea, select, button {font-family:inherit;font-size:inherit;padding:10px;border-radius:3px;border:1px solid #e0e0e0;background-color:#ffffff}
 
@@ -62,8 +63,4 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
         .showOnMobile {display:initial}
         
         #hamburgerIcon {display:inline-block}
-        #navItems {height:0px;overflow:hidden}
-        nav ul li {display:block}
-        nav ul li a {display:block;text-align:center}
-        .navItemCurrent {display:block;text-align:center}
 }
