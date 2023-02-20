@@ -67,6 +67,6 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
         .showOnMobile {display:initial}
         
         .hamburgerIcon {display:inline-block}
-        .hamburgerMenu {display:block}
+        #hamburgerMenu {display:block}
         #navItemsDesktop {display:none}
 }
