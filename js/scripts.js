@@ -45,4 +45,5 @@ while (i < pageFiles.length)
   i++;
 }
 document.getElementById("navItemsDesktop").innerHTML=navigationCode;
+document.getElementById("navItemsMobile").innerHTML=navigationCode;
 }
