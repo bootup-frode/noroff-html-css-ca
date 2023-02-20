@@ -54,6 +54,8 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
 .hideOnMobile {display:initial}
 .showOnMobile {display:none}
 
+.contactMapFrame {width:100%;max-width:600px;height:450px;border:0;border-radius:3px}
+
 @media only screen and (max-width:800px)
 {
         .hideOnMobile {display:none}
