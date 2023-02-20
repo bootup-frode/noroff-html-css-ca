@@ -35,7 +35,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 #hamburgerMenu {background-color:#181840;position:absolute;top:0;left:0;width:100%;height:0px;overflow:hidden;transition:height 0.5s}
 #hamburgerCheckbox {display:none}
 #hamburgerCheckbox:checked ~ #hamburgerMenu {height:100%}
-#hamburgerCheckbox:checked ~ main {height:0px;overflow:hidden}
+#hamburgerCheckbox:checked ~ body {overflow:hidden}
 #navItemsMobile {width:100%}
 #navItemsMobile li {display:block;text-align:center}
 
@@ -49,7 +49,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, but
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 
-main {width:100%;float:left;position:relative;margin-bottom:-14px;transition:height 0.5s}
+main {width:100%;float:left;position:relative;margin-bottom:-14px}
 main section {max-width:1200px;margin:0 auto;background-color:#101030;box-sizing:border-box;height:100%;border-radius:0px 0px 20px 20px}
 main section div {padding:20px}
 
