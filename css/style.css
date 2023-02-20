@@ -36,8 +36,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 #hamburgerCheckbox {display:none}
 #hamburgerCheckbox:checked ~ #hamburgerMenu {height:100%}
 #hamburgerCheckbox:checked ~ main {height:0px;overflow:hidden}
-.navItemsMobile {}
-.navItemsMobile li {display:block;text-align:center}
+#navItemsMobile li {display:block;text-align:center}
 
 input, textarea, select, button {font-family:inherit;font-size:inherit;padding:10px;border-radius:3px;border:1px solid #e0e0e0;background-color:#ffffff}
 
