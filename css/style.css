@@ -30,7 +30,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 .cartIcon li a {padding:10px;border-radius:3px;color:#6060a0;background-color:#ffffff}
 .cartIcon li a:hover {color:#ffffff;background-color:#6060a0}
 
-#hamburgerIcon {display:none}
+#hamburgerIcon {display:none;cursor:pointer}
 #hamburgerCheckbox {display:none}
 #hamburgerCheckbox:checked ~ #hamburgerMenu {height:100%}
 #hamburgerMenu {position:absolute;width:100%;height:0;transition:height 0.5s}
