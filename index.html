@@ -10,21 +10,24 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
+
+  <!-- Mobile aka hamburger menu -->
+  <input id="hamburgerCheckbox" type="checkbox">
+  <div id="hamburgerMenu">
+    <ul class="hamburgerIcon">
+      <li><label for="hamburgerCheckbox"><i class="fa-solid fa-bars"></i></label></li>
+    </ul>
+    <ul id="navItemsMobile">
+    </ul>
+  </div>
+
+  <!-- Desktop menu -->
   <header>
     <div class="headerNavWrapper">
       <nav>
         <ul class="hamburgerIcon">
           <li><label for="hamburgerCheckbox"><i class="fa-solid fa-bars"></i></label></li>
         </ul>
-        <input id="hamburgerCheckbox" type="checkbox">
-        <div id="hamburgerMenu">
-          <ul class="hamburgerIcon">
-            <li><label for="hamburgerCheckbox"><i class="fa-solid fa-bars"></i></label></li>
-          </ul>
-          <ul id="navItemsMobile">
-          </ul>
-        </div>
-
         <ul id="navItemsDesktop">
         </ul>
         <ul class="cartIcon">
