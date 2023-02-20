@@ -24,7 +24,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 
-#navItems {display:inline-block;box-sizing:border-box;transition:height 0.5s}
+#navItemsDesktop {display:inline-block;box-sizing:border-box;transition:height 0.5s}
 .cartIcon {display:inline-block;box-sizing:border-box;float:right}
 .cartIcon li {padding:10px}
 .cartIcon li a {padding:10px;border-radius:3px;color:#6060a0;background-color:#ffffff}
@@ -63,4 +63,5 @@ footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-bo
         .showOnMobile {display:initial}
         
         #hamburgerIcon {display:inline-block}
+        #navItemsDesktop {display:none}
 }
