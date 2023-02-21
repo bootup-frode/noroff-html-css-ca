@@ -1,2 +1,2 @@
-#contactForm {display:inline-block;overflow:hidden;text-align:center;transition:height 0.5s;height:300px}
-#contactSubmitted {display:inline-block;overflow:hidden;text-align:center;transition:height 0.5s;height:0px}
+#contactForm {display:block;overflow:hidden;text-align:center;transition:height 0.5s;height:320px;box-sizing:border-box}
+#contactSubmitted {display:block;overflow:hidden;text-align:center;transition:height 0.5s;height:0px;box-sizing:border-box}
