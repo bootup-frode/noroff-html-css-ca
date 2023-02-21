@@ -51,7 +51,5 @@ document.getElementById("navItemsMobile").innerHTML=navigationCode;
 function contactFormPost()
 {
   document.getElementById("contactForm").style.height="0px";
-  document.getElementById("contactForm").style.lineHeight="0px";
   document.getElementById("contactSubmitted").style.height="320px";
-  document.getElementById("contactForm").style.lineHeight="normal";
 }
