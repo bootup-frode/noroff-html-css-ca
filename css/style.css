@@ -33,7 +33,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 .hamburgerIcon {display:none}
 .hamburgerIcon label {cursor:pointer}
 #hamburgerMenu {display:none;background-color:rgba(24,24,64,0.95);position:absolute;top:0;left:0;width:0px;height:100%;
-                overflow:hidden;transition:width 0.5s;z-index:200}
+                overflow:hidden;transition:width 0.5s;z-index:200;border-right:2px solid #181840}
 #hamburgerCheckbox {display:none}
 #hamburgerCheckbox:checked ~ #hamburgerMenu {display:block;width:50%}
 #navItemsMobile {width:100%}
