@@ -18,7 +18,7 @@ if (urlParams.get('page'))
 
 var xmlHttp = null;
 xmlHttp = new XMLHttpRequest();
-xmlHttp.open( "GET", "subpages/" + thePage + ".html", false );
+xmlHttp.open( "GET", "mainpages/" + thePage + ".html", false );
 xmlHttp.send( null );
 document.getElementById("pageContent").innerHTML = xmlHttp.responseText;
 
