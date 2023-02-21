@@ -50,6 +50,6 @@ document.getElementById("navItemsMobile").innerHTML=navigationCode;
 
 function contactFormPost()
 {
-  document.getElementById("contactForm").style.height="0px";
-  document.getElementById("contactSubmitted").style.height="320px";
+  document.getElementById("contactForm").style.width="0px";
+  document.getElementById("contactSubmitted").style.width="100%";
 }
