@@ -54,7 +54,7 @@ main section {max-width:1200px;margin:0 auto;background-color:#101030;box-sizing
 main section div {padding:20px}
 
 .gameListing {background-color:transparent;border-radius:3px;border:0;border-bottom:2px solid transparent;
-                margin:10px;padding:20px;display:inline-block;max-width:160px;box-sizing:border-box}
+                margin:10px;padding:20px;display:inline-block;width:50%;max-width:250px;box-sizing:border-box}
 .gameListing:hover {background-color:#ffffff;border-bottom-color:rgba(0,0,0,0.5)}
 
 footer {width:100%;float:left;position:relative;background:linear-gradient()}
