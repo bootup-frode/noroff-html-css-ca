@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-a {color:#6060a0;text-decoration:none}
-a:hover {color:#8080c0;text-decoration:none}
+a {color:#8080c0;text-decoration:none}
+a:hover {color:#a0a0e0;text-decoration:none}
 
 body {background-color:#181840;color:#c0c0ff;font-family:'Noto Sans','Arial','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
@@ -27,7 +27,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 #navItemsDesktop {display:inline-block;box-sizing:border-box;transition:height 0.5s}
 .cartIcon {display:inline-block;box-sizing:border-box;float:right}
 .cartIcon li {padding:10px}
-.cartIcon li a {padding:10px;border-radius:3px;color:#6060a0;background-color:#ffffff}
+.cartIcon li a {padding:10px;border-radius:3px;color:#404080;background-color:#ffffff}
 .cartIcon li a:hover {color:#ffffff;background-color:#6060a0}
 
 .hamburgerIcon {display:none}
