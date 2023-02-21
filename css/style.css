@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 a {color:#8080c0;text-decoration:none}
-a:hover {color:#a0a0e0;text-decoration:underline}
+a:hover {color:#a0a0e0;text-decoration:none}
 
 body {background-color:#181840;color:#c0c0ff;font-family:'Noto Sans','Arial','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
