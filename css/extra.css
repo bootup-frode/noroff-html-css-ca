@@ -1,4 +1,4 @@
 #contactForm {margin:0px;padding:0px;display:block;overflow:hidden;text-align:center;
-    transition:height 0.5s;height:320px;box-sizing:border-box}
+    transition:height 0.5s;height:350px;box-sizing:border-box}
 #contactSubmitted {margin:0px;padding:0px;display:block;overflow:hidden;text-align:center;
         transition:height 0.5s;height:0px;box-sizing:border-box}
