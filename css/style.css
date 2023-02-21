@@ -44,9 +44,9 @@ input, textarea, select, button {font-family:inherit;font-size:inherit;padding:1
 
 input[type=text], input[type=email], input[type=number], input[type=password], textarea, select {width:100%;max-width:400px;box-sizing:border-box}
 
-input[type=button], input[type=submit], input[type=reset], button {background-color:#6060a0;border:0;border-bottom:2px solid rgba(0,0,0,0.5);
+input[type=button], input[type=submit], input[type=reset], button {background-color:#404080;border:0;border-bottom:2px solid rgba(0,0,0,0.5);
         padding:10px;color:#ffffff;cursor:pointer}
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover {background-color:#8080c0}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover {background-color:#6060a0}
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 
