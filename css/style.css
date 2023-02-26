@@ -59,7 +59,7 @@ main section div {padding:20px}
 
 
 footer {width:100%;float:left;position:relative;background:linear-gradient()}
-footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:#8080e0}
+footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:rgb(64,80,160)}
 
 .hideOnMobile {display:initial}
 .showOnMobile {display:none}
