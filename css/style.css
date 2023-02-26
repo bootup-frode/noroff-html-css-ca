@@ -59,10 +59,10 @@ nav ul li a, label {padding:20px;display:inline-block}
 .cartIcon li label {padding:10px;border-radius:3px;color:rgb(112,128,192);background-color:#ffffff}
 .cartIcon li label:hover {color:#ffffff;background-color:rgb(140,150,204)}
 
-.cartArea {color:rgb(27,32,61);transform:scaleY(0);overflow:hidden}
+.cartArea {color:rgb(27,32,61);max-height:0px;overflow:hidden}
 .cartArea h1 {margin-top:20px}
 #cartCheckbox {display:none}
-#cartCheckbox:checked ~ .cartArea {transform:scaleY(1)}
+#cartCheckbox:checked ~ .cartArea {max-height:500px}
 
 
 
