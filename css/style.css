@@ -58,7 +58,7 @@ main section div {padding:20px}
 .gameListing:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 .gameListing img {position:relative;z-index:1;width:210px}
 .gameListingSpecial {display:block;position:absolute;top:60px;left:40px;height:50px;padding:10px;box-sizing:border-box;border-radius:50px;
-                        background-color:#8080c0;color:#ffffff;z-index:2;font-size:24px}
+                        background-color:#8080c0;color:#ffffff;z-index:2;font-size:18px}
 
 footer {width:100%;float:left;position:relative;background:linear-gradient()}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:#8080e0}
