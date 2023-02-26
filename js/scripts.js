@@ -53,3 +53,9 @@ function contactFormPost()
   document.getElementById("contactForm").style.height="0px";
   document.getElementById("contactSubmitted").style.height="350px";
 }
+
+function doCheckout()
+{
+  document.getElementById("cartCheckbox").checked=0;
+  document.getElementById("checkoutCheckbox").checked=0;
+}
