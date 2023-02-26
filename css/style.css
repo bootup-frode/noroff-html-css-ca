@@ -7,7 +7,7 @@ a:hover {color:#a0a0e0;text-decoration:none;border-bottom:1px solid #a0a0e0}
 body {background-color:#181840;color:#b0b0f0;font-family:'Golos Text','Arial','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
 
-h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;font-family:'Staatliches',Impact,Helvetica}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;font-family:'Staatlichess','Impact','Helvetica'}
 
 input, textarea, select, button {font-family:inherit;font-size:inherit;padding:10px;border-radius:3px;border:1px solid #e0e0e0;background-color:#ffffff}
 input[type=text], input[type=email], input[type=number], input[type=password], textarea, select {width:100%;max-width:400px;box-sizing:border-box}
