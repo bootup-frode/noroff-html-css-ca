@@ -8,7 +8,7 @@
 /* rgb(186,192,224)     */
 /* -------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 a {color:rgb(112,128,192);text-decoration:none;border-bottom:1px dotted rgb(112,128,192)}
@@ -17,7 +17,7 @@ a:hover {color:rgb(140,150,204);text-decoration:none;border-bottom:1px solid rgb
 body {background-color:rgb(27,32,61);color:rgb(186,192,224);font-family:'Montserrat','Arial','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
 
-h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;font-family:'Tilt Warp','Impact','Helvetica'}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;font-family:'Space Mono','Impact','Helvetica'}
 
 input, textarea, select, button {font-family:inherit;font-size:inherit;padding:10px;border-radius:3px;border:1px solid #e0e0e0;background-color:#ffffff}
 input[type=text], input[type=email], input[type=number], input[type=password], textarea, select {width:100%;max-width:400px;box-sizing:border-box}
