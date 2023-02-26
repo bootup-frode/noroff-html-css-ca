@@ -57,7 +57,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 #navItemsMobile {width:100%}
 #navItemsMobile li {display:block;text-align:center}
 
-.cartIcon {display:inline-block;box-sizing:border-box;float:right}
+.cartIcon {box-sizing:border-box;float:right}
 .cartIcon li {padding:10px}
 .cartIcon li label {padding:10px;border-radius:3px;color:rgb(112,128,192);background-color:#ffffff}
 .cartIcon li label:hover {color:#ffffff;background-color:rgb(140,150,204)}
@@ -78,7 +78,7 @@ main section {max-width:1200px;margin:0 auto;background-color:rgb(21,26,49);box-
 main section div {padding:20px}
 
 
-footer {width:100%;float:left;position:relative;background:linear-gradient()}
+footer {width:100%;float:left;position:relative}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:rgb(112,128,192)}
 
 .hideOnMobile {display:initial}
