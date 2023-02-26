@@ -53,14 +53,11 @@ main section {max-width:1200px;margin:0 auto;background-color:#101030;box-sizing
 main section div {padding:20px}
 
 
-
 footer {width:100%;float:left;position:relative;background:linear-gradient()}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:#8080e0}
 
 .hideOnMobile {display:initial}
 .showOnMobile {display:none}
-
-.contactMapFrame {width:100%;max-width:600px;height:450px;border:0;border-radius:3px}
 
 @media only screen and (max-width:800px)
 {

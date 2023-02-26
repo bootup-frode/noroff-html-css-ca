@@ -15,3 +15,4 @@
     transition:height 0.5s;height:350px;box-sizing:border-box}
 #contactSubmitted {margin:0px;padding:0px;display:block;overflow:hidden;text-align:center;
         transition:height 0.5s;height:0px;box-sizing:border-box}
+.contactMapFrame {width:100%;max-width:600px;height:450px;border:0;border-radius:3px}
