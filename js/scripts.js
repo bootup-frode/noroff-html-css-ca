@@ -57,5 +57,5 @@ function contactFormPost()
 function doCheckout()
 {
   document.getElementById("cartCheckbox").checked=0;
-  document.getElementById("checkoutCheckbox").checked=0;
+  document.getElementById("checkoutCheckbox").checked=1;
 }
