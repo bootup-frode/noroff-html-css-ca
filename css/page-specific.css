@@ -1,23 +1,23 @@
 
 
 .gameListing {background-color:transparent;border-radius:3px;border:0;border-bottom:2px solid transparent;
-    margin:10px;padding:20px;display:inline-block;width:40%;max-width:250px;box-sizing:border-box;position:relative}
+        margin:10px;padding:20px;display:inline-block;width:40%;max-width:250px;box-sizing:border-box;position:relative}
 .gameListing:hover {background-color:#404080;border-bottom-color:rgba(0,0,0,0.5)}
 .gameListing:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 .gameListing img {position:relative;z-index:1;width:100%}
-.gameListingSpecial {display:block;position:absolute;top:250px;right:20px;height:40px;padding:10px;box-sizing:border-box;border-radius:10px 0px 0px 0px;
-            z-index:2}
+.gameListingSpecial {display:block;position:absolute;top:250px;right:20px;height:40px;padding:10px;box-sizing:border-box;
+        border-radius:10px 0px 0px 0px;z-index:2}
 .gameListingSpecialRed {background-color:#c04040;color:#ffffff}
 .gameListingSpecialGreen {background-color:rgb(63,165,53);color:#ffffff}
 
 
 #contactForm {margin:0px;padding:0px;display:block;overflow:hidden;text-align:center;
-    transition:height 0.5s;height:350px;box-sizing:border-box}
+        transition:height 0.5s;height:350px;box-sizing:border-box}
 #contactSubmitted {margin:0px;padding:0px;display:block;overflow:hidden;text-align:center;
         transition:height 0.5s;height:0px;box-sizing:border-box}
 .contactMapFrame {width:100%;max-width:600px;height:450px;border:0;border-radius:3px}
 
 @media only screen and (max-width:800px)
 {
-    .gameListingSpecial {position:relative;top:0px;left:0px;width:100%;padding:5px;border-radius:5px;height:auto}
+    .gameListingSpecial {position:relative;top:0px;left:0px;width:100%;padding:5px;;border-radius:0px 0px 5px 5px;height:auto}
 }
