@@ -19,6 +19,6 @@
 
 @media only screen and (max-width:800px)
 {
-    .gameListingSpecial {position:relative;top:auto;right:auto;height:auto;width:100%;padding:5px;border-radius:3px;margin:-20px;margin-top:0px}
+    .gameListingSpecial {position:relative;top:auto;right:auto;height:auto;width:100%;padding:5px;border-radius:3px;margin-top:-5px}
     .gameListing img {margin-top:10px}
 }
