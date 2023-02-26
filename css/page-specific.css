@@ -24,4 +24,5 @@
     .gameListingSpecial {position:relative;top:auto;right:auto;height:auto;width:100%;padding:5px;border-radius:0px;margin-top:-8px}
     .gameListing img {margin-top:10px}
     .gamePageInfo {display:flex;flex-direction:column}
+    .gamePageInfo div img {max-width:100px}
 }
