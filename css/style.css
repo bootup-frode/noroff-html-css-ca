@@ -59,7 +59,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 .cartIcon li a {padding:10px;border-radius:3px;color:rgb(112,128,192);background-color:#ffffff}
 .cartIcon li a:hover {color:#ffffff;background-color:rgb(140,150,204)}
 
-.cartArea {padding-top:20px;color:rgb(27,32,61);height:0px;overflow:hidden}
+.cartArea {padding-top:20px;color:rgb(27,32,61);height:0px;overflow:hidden;box-sizing:border-box}
 
 
 
