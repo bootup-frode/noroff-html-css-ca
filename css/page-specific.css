@@ -10,6 +10,8 @@
 .gameListingSpecialRed {background-color:#c04040;color:#ffffff}
 .gameListingSpecialGreen {background-color:rgb(63,165,53);color:#ffffff}
 
+.gamePageInfo {display:flex;flex-direction:row}
+
 
 #contactForm {margin:0px;padding:0px;display:block;overflow:hidden;text-align:center;
         transition:height 0.5s;height:350px;box-sizing:border-box}
@@ -21,4 +23,5 @@
 {
     .gameListingSpecial {position:relative;top:auto;right:auto;height:auto;width:100%;padding:5px;border-radius:0px;margin-top:-8px}
     .gameListing img {margin-top:10px}
+    .gamePageInfo {display:flex;flex-direction:column}
 }
