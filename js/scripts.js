@@ -48,14 +48,16 @@ document.getElementById("navItemsDesktop").innerHTML=navigationCode;
 document.getElementById("navItemsMobile").innerHTML=navigationCode;
 }
 
+
 function contactFormPost()
 {
   document.getElementById("contactForm").style.height="0px";
   document.getElementById("contactSubmitted").style.height="350px";
 }
 
+
 function doCheckout()
 {
-  document.getElementById("cartCheckbox").checked=false;
+  document.getElementById('cartCheckbox').checked=false;
   document.getElementById("checkoutCheckbox").checked=true;
 }
