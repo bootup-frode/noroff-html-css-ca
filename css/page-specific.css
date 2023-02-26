@@ -4,7 +4,7 @@
     margin:10px;padding:20px;display:inline-block;width:40%;max-width:250px;box-sizing:border-box;position:relative}
 .gameListing:hover {background-color:#404080;border-bottom-color:rgba(0,0,0,0.5)}
 .gameListing:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
-.gameListing img {position:relative;z-index:1;width:210px}
+.gameListing img {position:relative;z-index:1;width:100%}
 .gameListingSpecial {display:block;position:absolute;top:250px;right:20px;height:40px;padding:10px;box-sizing:border-box;border-radius:20px 0px 0px 0px;
             z-index:2}
 .gameListingSpecialRed {background-color:#c04040;color:#ffffff}
