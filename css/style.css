@@ -21,6 +21,7 @@ nav {max-width:1200px;margin:0 auto;padding:0px}
 nav ul {list-style:none;padding:0px;margin:0px;display:inline-block;vertical-align:top}
 nav ul li {display:inline-block}
 nav ul li a, label {padding:20px;display:inline-block;border:0}
+nav ul li a:hover {border:0}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 
