@@ -31,12 +31,7 @@ nav ul li a, label {padding:20px;display:inline-block;border:0}
 nav ul li a:hover {border:0}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
-
 #navItemsDesktop {display:inline-block;box-sizing:border-box;transition:height 0.5s}
-.cartIcon {display:inline-block;box-sizing:border-box;float:right}
-.cartIcon li {padding:10px}
-.cartIcon li a {padding:10px;border-radius:3px;color:#404080;background-color:#ffffff}
-.cartIcon li a:hover {color:#ffffff;background-color:#6060a0}
 
 .hamburgerIcon {display:none}
 .hamburgerIcon label {cursor:pointer}
@@ -47,6 +42,15 @@ nav ul li a:hover {border:0}
 #hamburgerCheckbox:checked ~ #hamburgerMenu {width:50%}
 #navItemsMobile {width:100%}
 #navItemsMobile li {display:block;text-align:center}
+
+.cartIcon {display:inline-block;box-sizing:border-box;float:right}
+.cartIcon li {padding:10px}
+.cartIcon li a {padding:10px;border-radius:3px;color:#404080;background-color:#ffffff}
+.cartIcon li a:hover {color:#ffffff;background-color:#6060a0}
+
+.cartArea {padding-top:20px}
+
+
 
 main {width:100%;float:left;position:relative;margin-bottom:-14px}
 main section {max-width:1200px;margin:0 auto;background-color:#101030;box-sizing:border-box;height:100%;border-radius:0px 0px 20px 20px}
