@@ -4,7 +4,7 @@
 a {color:#8080c0;text-decoration:none;border-bottom:1px dotted #8080c0}
 a:hover {color:#a0a0e0;text-decoration:none;border-bottom:1px solid #a0a0e0}
 
-body {background-color:rgb(27,32,61);color:#b0b0f0;font-family:'Montserrat','Arial','Sans-serif','Helvetica';font-size:14px;
+body {background-color:rgb(27,32,61);color:rgb(186,192,224);font-family:'Montserrat','Arial','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
 
 h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0px;padding:0px;text-align:center;font-family:'Tilt Warp','Impact','Helvetica'}
