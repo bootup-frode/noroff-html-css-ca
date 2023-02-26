@@ -57,10 +57,10 @@ main section div {padding:20px}
 .gameListing:hover {background-color:#404080;border-bottom-color:rgba(0,0,0,0.5)}
 .gameListing:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 .gameListing img {position:relative;z-index:1;width:210px}
-.gameListingSpecialGreen {display:block;position:absolute;top:240px;right:35px;height:40px;padding:10px;box-sizing:border-box;border-radius:50px;
-                        background-color:#c04040;color:#ffffff;z-index:2;font-weight:bold}
-.gameListingSpecialRed {display:block;position:absolute;top:240px;right:35px;height:40px;padding:10px;box-sizing:border-box;border-radius:50px;
-                                background-color:#00c080;color:#ffffff;z-index:2;font-weight:bold}
+.gameListingSpecial {display:block;position:absolute;top:240px;right:35px;height:40px;padding:10px;box-sizing:border-box;border-radius:50px;
+                        z-index:2;font-weight:bold}
+.gameListingSpecialGreen {background-color:#c04040;color:#ffffff}
+.gameListingSpecialRed {background-color:#00c080;color:#ffffff}
 
 footer {width:100%;float:left;position:relative;background:linear-gradient()}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:#8080e0}
