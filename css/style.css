@@ -69,6 +69,7 @@ nav ul li a, label {padding:20px;display:inline-block}
 #cartCheckbox {display:none}
 #cartCheckbox:checked ~ .cartArea {max-height:500px}
 
+#checkoutCheckbox {display:none}
 #checkoutCheckbox:checked ~ .checkoutArea {max-height:500px}
 
 
