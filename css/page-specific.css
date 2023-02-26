@@ -19,5 +19,5 @@
 
 @media only screen and (max-width:800px)
 {
-    .gameListingSpecial {top:0px;left:0px;right:auto;right:auto;height:30px;padding:5px;border-radius:0px 0px 5px 0px}
+    .gameListingSpecial {position:relative;top:0px;left:0px;width:100%}
 }
