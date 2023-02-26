@@ -28,6 +28,8 @@ input[type=button], input[type=submit], input[type=reset], button {background-co
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover {background-color:rgb(140,150,204)}
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 
+.fontAwesomeIconSettings {font-size:18px;vertical-align:-2px}
+
 
 header {width:100%;float:left;margin:0px;padding:0px}
 header a, #hamburgerMenu a {border:0}
