@@ -1,17 +1,19 @@
+/* -------------------------- */
+/* Colors used except white   */
+/* -------------------------- */
+/*    rgb(27,32,61)           */
+/*    rgb(112,128,192)        */
+/*    rgb(140,150,204)        */
+/*    rgb(186,192,224)        */
+/* -------------------------- */
 
-/* --------------------- */
-/* Palette (exept white) */
-/* --------------------- */
-/* rgb(27,32,61)         */
-/* rgb(112,128,192)      */
-/* rgb(140,150,204)      */
-/* rgb(186,192,224)      */
-/* --------------------- */
 
+/* Load Google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=JetBrains+Mono&display=swap');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+
+/* General stuff */
 
 a {color:rgb(112,128,192);text-decoration:none;border-bottom:1px dotted rgb(112,128,192)}
 a:hover {color:rgb(140,150,204);text-decoration:none;border-bottom:1px solid rgb(140,150,204)}
@@ -28,8 +30,13 @@ input[type=button], input[type=submit], input[type=reset], button {background-co
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover {background-color:rgb(140,150,204)}
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 
+
+/* A bit of tweaking for FontAwesome icons */
+
 .fontAwesomeIconSettings {font-size:18px;vertical-align:-2px}
 
+
+/* Header area, including navigation and area where the logo are */
 
 header {width:100%;float:left;margin:0px;padding:0px}
 header a, #hamburgerMenu a {border:0}
@@ -38,9 +45,6 @@ header a:hover, #hamburgerMenu a:hover {border:0}
 .headerNavWrapper {width:100%;overflow:hidden}
 .headerNav {max-width:1200px;margin:0 auto;display:block;overflow:visible}
 
-.headerContentWrapper {background-color:#ffffff}
-.headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-align:center}
-
 nav {max-width:1200px;margin:0 auto;padding:0px}
 nav ul {list-style:none;padding:0px;margin:0px;display:inline-block;vertical-align:top}
 nav ul li {display:inline-block}
@@ -48,6 +52,12 @@ nav ul li a, label {padding:20px;display:inline-block}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 #navItemsDesktop {display:inline-block;box-sizing:border-box;transition:height 0.5s}
+
+.headerContentWrapper {background-color:#ffffff}
+.headerContent {max-width:1200px;margin:0 auto;display:block;padding:20px;text-align:center}
+
+
+/* Hamburger ingredients */
 
 .hamburgerIcon {display:none}
 .hamburgerIcon label {cursor:pointer}
@@ -58,6 +68,9 @@ nav ul li a, label {padding:20px;display:inline-block}
 #hamburgerCheckbox:checked ~ #hamburgerMenu {width:50%}
 #navItemsMobile {width:100%}
 #navItemsMobile li {display:block;text-align:center}
+
+
+/* Cart and checkout stuff */
 
 .cartIcon {box-sizing:border-box;float:right}
 .cartIcon li {padding:10px}
@@ -76,13 +89,21 @@ nav ul li a, label {padding:20px;display:inline-block}
 #checkoutCheckbox:checked ~ .checkoutArea {max-height:500px}
 
 
+/* Styling for main page content */
+
 main {width:100%;float:left;position:relative;margin-bottom:-14px}
 main section {max-width:1200px;margin:0 auto;background-color:rgb(21,26,49);box-sizing:border-box;height:100%;border-radius:0px 0px 20px 20px}
 main section div {padding:20px}
 
 
+
+/* Styling for footer */
+
 footer {width:100%;float:left;position:relative}
 footer section {max-width:1200px;margin:0 auto;padding:20px;box-sizing:border-box;text-align:center;color:rgb(112,128,192)}
+
+
+/* Styling for mobile stuff */
 
 .hideOnMobile {display:initial}
 .showOnMobile {display:none}
