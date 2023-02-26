@@ -58,7 +58,7 @@ main section div {padding:20px}
 .gameListing:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 .gameListing img {position:relative;z-index:1;width:210px}
 .gameListingSpecial {display:block;position:absolute;top:250px;right:20px;height:40px;padding:10px;box-sizing:border-box;border-radius:20px 0px 0px 0px;
-                        z-index:2;font-weight:700}
+                        z-index:2}
 .gameListingSpecialRed {background-color:#c04040;color:#ffffff}
 .gameListingSpecialGreen {background-color:rgb(63,165,53);color:#ffffff}
 
