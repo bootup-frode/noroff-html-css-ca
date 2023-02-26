@@ -58,6 +58,6 @@ function contactFormPost()
 
 function doCheckout()
 {
-  document.getElementById('cartCheckbox').checked=false;
+  document.getElementById("cartCheckbox").checked=false;
   document.getElementById("checkoutCheckbox").checked=true;
 }
