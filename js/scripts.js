@@ -56,8 +56,22 @@ function contactFormPost()
 }
 
 
-function doCheckout()
+function viewCart()
+{
+  document.getElementById("cartCheckbox").checked=true;
+  document.getElementById("checkoutCheckbox").checked=false;
+}
+
+
+function viewCheckout()
 {
   document.getElementById("cartCheckbox").checked=false;
   document.getElementById("checkoutCheckbox").checked=true;
+}
+
+
+function hideCartAndCheckout()
+{
+  document.getElementById("cartCheckbox").checked=false;
+  document.getElementById("checkoutCheckbox").checked=false;
 }

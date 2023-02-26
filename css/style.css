@@ -59,11 +59,11 @@ nav ul li a, label {padding:20px;display:inline-block}
 
 .cartIcon {box-sizing:border-box;float:right}
 .cartIcon li {padding:10px}
-.cartIcon li label {padding:10px;border-radius:3px;color:rgb(112,128,192);background-color:#ffffff}
-.cartIcon li label:hover {color:#ffffff;background-color:rgb(140,150,204)}
+.cartIcon li a {padding:10px;border-radius:3px;color:rgb(112,128,192);background-color:#ffffff}
+.cartIcon li a:hover {color:#ffffff;background-color:rgb(140,150,204)}
 
 .cartArea, .checkoutArea {color:rgb(27,32,61);max-height:0px;overflow:hidden;transition:max-height 0.5s;padding-left:20px;padding-right:20px}
-.cartArea h1 {margin-top:20px}
+.cartArea h1, .checkoutArea h1 {margin-top:20px}
 .cartTable {display:flex;flex-direction:row;justify-content:space-between;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0}
 .cartTable div {flex-grow:1;text-align:left;align-self:center}
 #cartCheckbox {display:none}

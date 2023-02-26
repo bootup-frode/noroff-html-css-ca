@@ -18,7 +18,7 @@
   <div id="hamburgerMenu">
     <nav>
       <ul class="hamburgerIcon">
-        <li><label for="hamburgerCheckbox"><i class="fa-solid fa-xmark"></i></label></li>
+        <li><a href="#" onclick="viewCart()"><i class="fa-solid fa-xmark"></i></a></li>
       </ul>
       <ul id="navItemsMobile">
       </ul>
@@ -65,14 +65,14 @@
             </div>
           </div>
           <p align="right">
-          <button onclick="doCheckout()"><i class="fa-solid fa-cart-plus" style="font-size:20px;vertical-align:-2px"></i> Check out</button>
+          <button onclick="viewCheckout()"><i class="fa-solid fa-cart-plus" style="font-size:20px;vertical-align:-2px"></i> Check out</button>
           </p>
         </div>
 
         <!-- Checkout area -->
         <input id="checkoutCheckbox" type="checkbox">
         <div class="checkoutArea">
-          <h1>Checkout sucessfull!</h1>
+          <h1>Checkout sucessful!</h1>
           <br>
           <p align="center">
             You have successfully ordered your game(s). A confirmation email has been sent to your email address.
