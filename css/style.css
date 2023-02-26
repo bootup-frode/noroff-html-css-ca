@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-a {color:#8080c0;text-decoration:none}
-a:hover {color:#a0a0e0;text-decoration:none}
+a {color:#8080c0;text-decoration:none;border-bottom:1px dotted #8080c0}
+a:hover {color:#a0a0e0;text-decoration:none;border-bottom:1px solid #a0a0a0}
 
 body {background-color:#181840;color:#b0b0f0;font-family:'Noto Sans','Arial','Sans-serif','Helvetica';font-size:14px;
         margin:0px;display:grid;grid-template-rows:auto 1fr auto;min-height:100vh;padding:0px}
@@ -20,7 +20,7 @@ header {width:100%;float:left;margin:0px;padding:0px}
 nav {max-width:1200px;margin:0 auto;padding:0px}
 nav ul {list-style:none;padding:0px;margin:0px;display:inline-block;vertical-align:top}
 nav ul li {display:inline-block}
-nav ul li a, label {padding:20px;display:inline-block}
+nav ul li a, label {padding:20px;display:inline-block;border:0}
 
 .navItemCurrent {padding:20px;color:#ffffff;display:inline-block}
 
