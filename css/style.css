@@ -53,11 +53,11 @@ main section {max-width:1200px;margin:0 auto;background-color:#101030;box-sizing
 main section div {padding:20px}
 
 .gameListing {background-color:transparent;border-radius:3px;border:0;border-bottom:2px solid transparent;
-                margin:10px;padding:20px;display:inline-block;width:40%;max-width:250px;box-sizing:border-box}
+                margin:10px;padding:20px;display:inline-block;width:40%;max-width:250px;box-sizing:border-box;position:relative}
 .gameListing:hover {background-color:#404080;border-bottom-color:rgba(0,0,0,0.5)}
 .gameListing:active {border-bottom-width:1px;margin-top:1px;vertical-align:-1px}
 .gameListing img {position:relative;z-index:1;width:210px}
-.gameListingSpecial {display:block;position:absolute;height:30px;padding:10px;box-sizing:border-box;border-radius:30px;
+.gameListingSpecial {display:block;position:absolute;top:-40px;height:30px;padding:10px;box-sizing:border-box;border-radius:30px;
                         background-color:#8080c0;color:#ffffff;z-index:2}
 
 footer {width:100%;float:left;position:relative;background:linear-gradient()}
