@@ -61,6 +61,8 @@ nav ul li a, label {padding:20px;display:inline-block}
 
 .cartArea {color:rgb(27,32,61);height:0px;overflow:hidden}
 .cartArea h1 {margin-top:20px}
+#cartCheckbox {display:none}
+#cartCheckbox:checked ~ .cartArea {height:auto}
 
 
 
